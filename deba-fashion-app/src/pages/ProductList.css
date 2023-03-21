@@ -1,0 +1,28 @@
+.Container_ProductList {
+
+}
+
+.Container_ProductList > h1 {
+    margin: 20px;
+}
+
+.FilterContainer_PL {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Filter_ProductList {
+    margin: 20px;
+}
+
+.Filter_ProductList > span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.Filter_ProductList > select {
+    padding: 10px;
+    margin-right: 20px;
+}

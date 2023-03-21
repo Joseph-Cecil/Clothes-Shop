@@ -1,0 +1,38 @@
+.Container_categoryItem {
+    flex: 1;
+    margin: 3px;
+    height: 70vh;
+    position: relative;
+}
+
+.Image_container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Info_CategoryItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title_CategoryItem {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Info_CategoryItem > button {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    font-weight: 600;
+}

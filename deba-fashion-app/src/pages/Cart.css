@@ -1,0 +1,148 @@
+.Container_Cart{
+
+}
+
+.Wrapper_Cart {
+    padding: 20px;
+}
+
+.Wrapper_Cart > h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.Top_Cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Top_Cart > button.filled {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.Top_Cart > button.Notfilled {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.TopTexts_Cart {
+
+}
+
+.TopTexts_Cart > span {
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.Bottom_Cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info_Cart {
+    flex: 3;
+}
+
+.Info_Cart > hr {
+    background-color: #eee;
+    border: none;
+    height: 1px;
+}
+
+.Product_Cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductDetail_Cart {
+    flex: 2;
+    display: flex;
+}
+
+.Image_Cart > img {
+    width: 200px;
+}
+
+.Details_Cart {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ProductColor_Cart {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+.PriceDetail_Cart{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductAmountContainer_Cart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ProductAmount_Cart {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.ProductPrice_Cart {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.Summary_Cart {
+    flex: 1;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+}
+
+.Summary_Cart > h1 {
+    font-weight: 200;
+}
+
+.SummaryItem {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SummaryItem_Total {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 24px;
+}
+.Summary_Cart > button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+

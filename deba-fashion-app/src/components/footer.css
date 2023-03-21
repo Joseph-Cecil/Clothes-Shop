@@ -1,0 +1,70 @@
+.Container_footer{
+    display: flex;
+}
+
+.footer_Left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Logo_footer {
+
+}
+
+.Desc_footer {
+    margin: 20px 0px;
+}
+
+.SocialMedia {
+    display: flex;
+
+}
+
+.SocialMedia_Icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-right: 20px;
+}
+
+.footer_Center {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer_Center > h3 {
+    margin-bottom: 30px;
+}
+
+.footer_Center > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;flex-wrap: wrap;
+}
+
+.footer_Center > ul > li {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer_Right {
+    flex: 1;
+    padding: 20px;
+}
+
+.ContactItem {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_Right > img {
+    width: 100%;
+}

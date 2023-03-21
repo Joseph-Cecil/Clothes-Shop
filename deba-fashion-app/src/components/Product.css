@@ -1,0 +1,64 @@
+.Container_Product {
+    flex: 1;
+    margin: 5px;
+    min-width: 280px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fbfb;
+    position: relative;
+}
+.Info_Product {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.Container_Product:hover,
+.Info_Product:hover {
+    opacity: 1;
+}
+
+.Circle_Product {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+
+.Image_Product {
+    height: 75%;
+    z-index: 2;
+}
+
+
+
+.Icon_Product {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.Icon_Product :hover {
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+.Container_Slider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.Wrapper {
+    height: 100%;
+    display: flex;
+    transform: translateX(-100vw);
+}
+
+.Slide_Slider {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.ImgContainer_Slider {
+    height: 100%;
+    flex: 1;
+}
+
+.Image_Slider {
+    height: 80%;
+
+}
+
+.InfoContainer_Slider {
+    flex: 1;
+    padding: 50px;
+}
+
+.InfoContainer_Slider > h1 {
+    font-size: 70px;
+}
+
+.InfoContainer_Slider > p {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.InfoContainer_Slider > button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
